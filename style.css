@@ -133,13 +133,14 @@ header a{
 .arrows{
     position: absolute;
     top: 80%;
-    right: 52%;
+    right: 50%;
     z-index: 100;
     width: 300px;
     max-width: 30%;
     display: flex;
-    gap: 50px;
-    align-items: center;
+    gap: 5px;
+    /* align-items: center; */
+    justify-content: center;
 }
 .arrows button{
     width: 40px;
