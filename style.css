@@ -45,6 +45,7 @@ header a{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: brightness(.5);
 }
 .carousel .list .item .content{
     position: absolute;
@@ -56,7 +57,7 @@ header a{
     padding-right: 30%;
     box-sizing: border-box;
     color: var(--clr-font);
-    text-shadow: 0 5px 10px #0004;
+    text-shadow: 0 5px 10px #000;
 }
 .carousel .list .item .author{
     font-weight: bold;
