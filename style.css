@@ -148,10 +148,13 @@ header a{
     border-radius: 50%;
     background-color: #eee4;
     border: none;
-    color: #fff;
+    color: var(--clr-font);
     font-family: monospace;
     font-weight: bold;
     transition: .5s;
+    outline: solid 1px hsla(0, 0%, 100%, .5);
+    outline-offset: -4px;
+    box-shadow: 0 0 3px #222;
 }
 .arrows button:hover{
     background-color: #fff;
