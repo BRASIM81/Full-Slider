@@ -3,12 +3,17 @@
     font-size: 16px;
     --clr-font: #eee;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     background-color: #000;
     color: var(--clr-font);
     font-family: Poppins;
-    font-size: 12px;
+    font-size: .8rem;
 }
 a{
     text-decoration: none;
@@ -61,7 +66,7 @@ header a{
 }
 .carousel .list .item .author{
     font-weight: bold;
-    letter-spacing: 10px;
+    letter-spacing: .7rem;
 }
 .carousel .list .item .title,
 .carousel .list .item .topic{
@@ -159,6 +164,8 @@ header a{
 .arrows button:hover{
     background-color: #fff;
     color: #000;
+    outline: solid 1px hsla(0, 0%, 0%, .5);
+    outline-offset: -4px;
     cursor: pointer;
 }
 
