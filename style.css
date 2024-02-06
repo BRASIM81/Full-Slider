@@ -72,7 +72,11 @@ header a{
 .carousel .list .item .topic{
     font-size: 5em;
     font-weight: bold;
-    line-height: 1.3em;
+    line-height: calc(1em + .5rem);
+}
+.carousel .list .item .des{
+    line-height: calc(1em + .5rem);
+    text-indent: 1em;
 }
 .carousel .list .item .topic{
     color: #f1683a;
