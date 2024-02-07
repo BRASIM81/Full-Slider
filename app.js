@@ -47,3 +47,10 @@ function showSlider(type){
         next.click();
     }, timeAutoNext)
 }
+
+const btn = document.querySelector('button');
+const cookie = localStorage.getItem('cookie');
+
+cookie && btn.classList.add('red');
+
+btn.addEventListener('click', () => localStorage.setItem('cookie', 'set'))
