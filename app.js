@@ -48,9 +48,11 @@ function showSlider(type){
     }, timeAutoNext)
 }
 
-const btn = document.querySelector('button');
+const btns = document.querySelector('button');
 const cookie = localStorage.getItem('cookie');
+const des = document.querySelectorAll('.des');
+let i = localStorage.getItem('count');
 
-cookie && btn.classList.add('red');
-
-btn.addEventListener('click', () => localStorage.setItem('cookie', 'set'))
+btns.addEventListener('click', () => {
+    localStorage.setItem('cookie', 'red');
+});
